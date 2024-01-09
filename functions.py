@@ -9,7 +9,7 @@ def get_weather_from_api(city_name, api_key):
 
 
 def get_weather(city_name):
-    api_key = "ef32bc4ad39070656ad8824b026af312"
+    api_key = "sua_chave"
     weather_data = get_weather_from_api(city_name, api_key)
     # retorna um dict
     print(weather_data)
